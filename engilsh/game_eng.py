@@ -15,7 +15,7 @@ def is_similar(a, b):
 def english_training():
     print("Давайте потренируемся! Напишите перевод на русский или английский для следующего предложения:")
     while True:
-        # Случайным образом выбираем, на каком языке будет задание
+
         lang = random.choice(["english", "russian"])
 
         if lang == "english":
